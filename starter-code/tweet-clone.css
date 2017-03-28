@@ -1,10 +1,13 @@
 body {
-background-color:        rgb(244, 248, 249);
+background-color:   rgb(244, 248, 249);
 font-family: 'Helvetica', sans-serif;
 font-weight: 500;
+overflow: hidden;
 }
 
 #tweet {
+  height: 280px;
+  width:1000px;
   background-color:  rgb(255, 255, 255);
   border: 2px solid rgb(225, 232, 237);
   border-radius: 6px;
@@ -16,40 +19,69 @@ font-weight: 500;
 }
 
 .account-title{
-  font-size: 24px;
+  font-weight: 800;
+  font-size: 30px;
   position: relative;
-  bottom: 135px;
-  left: 120px;
+  bottom: 145px;
+  left: 128px;
 }
 
 .user-account {
 color: rgb(104, 109, 129);
 position: relative;
-left: 122px;
-bottom: 160px;
-font-size: 20px;
+left: 132px;
+bottom: 175px;
+font-size: 25px;
 }
+
 
 .tweeted-message {
   color: rgb(0,0,0);
   position: relative;
-  bottom: 150px;
+  bottom: 170px;
   left: 43px;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .time-date, li {
   display: inline-block;
-  font-size: 20px;
+  font-size: 24px;
   color: rgb(101, 116, 127);
   position: relative;
-  bottom: 100px;
-  left: 2px;
-}
+  bottom: 120px;
+  left: 1px;
+  }
 
-.post-activity-bar {
+.post-activity-bar li {
   display: inline-block;
   position: relative;
-  bottom: 60px;
-  right: 250px;
+  bottom: 310px;
+  padding: 1px;
+  }
+
+  .special-margin {
+    margin-left: 30px;
+  }
+
+div.follow-btn {
+  position: relative;
+  bottom: 570px;
+  left: 780px;
+  border: 2px solid rgb(85, 172, 238);
+  border-radius: 8px;
+  height: 55px;
+  width: 175px;
+}
+
+div.follow-btn>img {
+  padding:13px 26px;
+}
+
+div.follow-btn>p {
+  font-weight: 800;
+  color: rgb(85, 172, 238);
+  font-size: 27px;
+  position: relative;
+  bottom: 74px;
+  left: 66px;
 }
